@@ -1,6 +1,9 @@
+@import "./variables.scss";
+
 .navbar {
   text-align: center;
   padding: 15px;
+  background-color: $primaryColor;
   ul {
     display: flex;
     justify-content: space-evenly !important;

@@ -20,6 +20,11 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li>
+          <Link className="home" to="/blog">
+            Blog
+          </Link>
+        </li>
       </ul>
     </div>
   )
