@@ -1,0 +1,31 @@
+.navbar {
+  text-align: center;
+  padding: 15px;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly !important;
+      -ms-flex-pack: space-evenly !important;
+          justify-content: space-evenly !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li .home {
+  text-decoration: none;
+}
+
+.navbar li .home:hover {
+  color: red;
+}
+/*# sourceMappingURL=navbar.css.map */
