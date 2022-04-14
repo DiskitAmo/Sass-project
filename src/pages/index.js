@@ -3,8 +3,6 @@ import Navbar from "../components/Navbar"
 import Content from "../components/Content"
 import "../styles/style.css"
 
-//import Layout from "../components/layout"
-
 const IndexPage = () => (
   <div className="container">
     <Navbar />
